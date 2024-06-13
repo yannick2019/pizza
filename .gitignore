@@ -1,0 +1,23 @@
+.vscode/
+.DS_Store
+
+node_modules/
+**/node_modules
+**/directories
+**.db
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
